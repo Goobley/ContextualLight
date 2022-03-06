@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 150" width="512" height="150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<!-- <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600');
+</style> Embedding pulled from vecta.io/nano -->
+<style>@font-face{font-family:"Source Serif Pro";src:url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAsUAA0AAAAAENAAAwBCAAAAAAAAAAAAAAAAAAAAAAAAAABHUE9TAAABMAAAAU0AAALIVPdFAE9TLzIAAAKAAAAAVQAAAGBel4pbY21hcAAAAtgAAAB/AAABggrTJyRnYXNwAAADWAAAAAgAAAAIAAAAEGdseWYAAANgAAAEhQAABgBEfFYJaGVhZAAAB+gAAAA2AAAANh5Blj9oaGVhAAAIIAAAABsAAAAkA5gBQWhtdHgAAAg8AAAAPAAAADwdVgG4bG9jYQAACHgAAAAgAAAAIArODJhtYXhwAAAImAAAABoAAAAgABUATm5hbWUAAAi0AAACQQAABECt2kr4cG9zdAAACvgAAAAUAAAAIP/RAEFwcmVwAAALDAAAAAcAAAAHaAaMhXicdVExTsNAEJyzz0lw4ghR8gAeQJUKUSBEQZkSISGIiJSIwkrDByh4B6+h5hkBISMFSIKW2XVsn0C5093u3q53ZsdwAFIMMYM/OT0f4uj6Pp/i8DYfTXAwvZrdYR+eNRCBQxz4UeC7wAf8ZJTzu/83c86O59cdJNHAvbgbPGOX8cx6POEBCRlBlvImC94FgiXryspKVtiyqipbcRPJj/VdbkKHNlo8Heygix76NlWPb2qTalp6ZY0zqzmdosxG3JfmPWLMt4wIZCxfhrcMkWtmXjnIXE/AualdSFFzLjVXRVTlPtkpC9U+JpeUvDXbIrvUuCTcEf3UeB4bszHObK4/yjQo8iHvAfprja0dY7OZTR0TybN3QtxKucTenVUNDO+CuMph298p5NPsnFhr+d4ompnt1jht66WzldpnhuE4hzduexZlduJfTCxxOgAAAHicY2Bh/MIUwcDKwMDUBaQZGLwhNGMcgxGjLFCUhZ2ZlYWViYkFKMcuwIAAji5O/gwHGBQYKpin/dvIwMDCw+ivwMA4HyTHeJtpHpBSYGAGAA2FC9EAAAB4nGNgYGBmgGAZBkYGEKgB8hjBfBaGBCAtwiAAFGFhUGBwZvBhSGRIZchkyGcoZaj4/x8oixBNZ8hjKAGJ/n/4f///7f8X/1/wf/7/2f+n/58KNRkDMLJhF0dRQ1gJE4zBjE2WBYhZGdjYOUAcTi4Qyc3DwMBL2Fy6AABHNhsVAAABAAH//wAPeJy1VElsG1UYfv/YseMldow9HjvexjMZj5c4XsdjNzMZ2zjOQkMc0jpJo7RKmtIUKYlSDkBYUiVUVaqmEgfaAxRuFAkqDqUnhITErYcgBJEogsAJToDopUgIhzdjiigHboxmnvT+kf5ved//UAdqIESkietIhwzIhKzIjpDoCDu4MK9ziDnKwVFiA75vXQX91q1LRy+1Pt/aQsT1P86V9sHXGjo4gI+E/X30zwdQ7PAXYpJ4F9EIdTD9IOQHIZd1h4Dl+4FlbEC6grigQM5oA9hcfGN2/sapzGJaP+Rx97mlM3JpUc7lPTV9YtkxdWNl5c0pt+/aS1ZzZXvp9HaZ2njd09PG4TH3Pszdi5BTCJO4WwBcbion5oxhQSzkZZCA5yEzA/i566+bWx3HCIJYTqXMg5tlWdhQLn+SMikvlgqVzUFEoMjhfcIAP6EEKqrMI7wN042o9EX8CvkIyxjsoBZ5TRFGy2VFygacy53LFkTBBqqit6NZEyeli+PB8RFXtofPmEiLVc94052mtbnpRsDZTT2WaX0VCzqYXpLrynLWKBvhKzItpimjzeivZwhC7GWS0sjU4tdJt4sJvMaz3d63jNYOVx5LRtzhffgG8zQjFtuADTVidExP97fZQeyxMay6XFD5gcOTCut3ej15rv6MNLSmDMxkDK09/ZTSJ3sDgTPwcaguBX39R1qCtP5k41k5e0KmqWaT9feIsuq1DvUcUgTAz8iC3R7CGdEAsR+ky63T1ONtAhjeIOIPFwcg6yZdqlcqp4LYXrGZhVyWEimSxX8Nv8b7EtFoMt6sKROTfHqNC/guJCNOb/jlxWPyc7Pj87F4OhRkuYnlubncun2BfPrLqigolUKh3PqsP57n/FFD74GlJ+B0jympp7J0IUwLlCXmC5SY6MLYbDxhrjPZ0VmcFQobN0x8i2KYu5oNwcELImUkC9o5+iEEJNvOjCrLSGqVQBVGb9v14ycrIyA/KEMoUpRgAMW6uGkabpn5pGn39mxzfplpctYYrh5nTg0kS1fDzYg1hs8J5xI8xD3kUidBfNg9BRqwBqBj2o6oZtBVAGL4w24dyBt0Xx9NJxJtpFRMDJoiinn3VXoaNybGoiE6GqVDUXUGfFjXqJbZRxFC8J/KmAoGq9/sNo7PV4Y1bXREGHioTYhlNMTx6X+Ly1xri0N/5ZDoxNh2VWnHI+GzAa9GgmVwFMBdWyk/vlour9YqK7VCaW21aJPOTzTOS9L6ZGNdyiyd3ds7u9SeaTPO9jRxTu1IaebIwArqVZEjWYcaNDXPX0g1GJuMTOqffyHg8TEeZ9UmValYYD9v3rkst+5xjNcbYrV+bsyxCD8iP2bIG/A4K9A++PbIOrWNgyJht3N0YfAJ0Fc+sHawYf+AT6e816WTTTPzk6cf2HjScuWdYpL2QsjGUZYrrR+6Ym2+2Ihu+E49BxBypF01F18+vBFHHPNOqUUjJcLRO0e2dqqt36SZk8qn1Yvbyu/54yfgTjxuubmH7TVf3Mar9f275njcdOGVtr//e37+BNQ5IlQAAAAAAQAAAAMAQsErYslfDzz1CAED6AAAAADZxjq5AAAAANsJGHAACv8XAlEC3QAAAAMAAgAAAAAAAHicY2BkYGCe9m8jAwNTAwMEMDKgAn4AUXYC3AACgABQAOAAAAJzACkCTQAnAggAJgIDACUCEgAaAmEAFwEzABkCYwAbAi0AJQFVAAoCUwAWAhoACgEzABkAAAAkACoAXgCGANoBFAF0Aa4B4AIeAkgCcAKgAs4DAHicY2BkYGDgZ3BjYGUAAUYGBGAHEQAJUQBkAAB4nJ2SMU/bQBTHn5NA1SWquhQ63dAhSMklNgQUMiWCSEgIR4nEbpxLYmH7rDsnho126kdoPwJbh36CDkj9GnyErl36t320oIqhzcm+33vv//535wsRvaI7sqj8LfGUbNE2opIr9ILeG65Sgz4arkHzxfAGOfTd8Ca9oZ+G6/TWeo0uq/YS0Z3VNGyRY/0wXKF65Z3hKo0rjuEaOZUPhjdoVvlqeJN4dctwnfaqo2+3zOnYe6yVTz02mMkLwabXOhWRZiexL1UilZeKGWss0zQ5bLezLONeLuO+jNo7TZYF6ZJNhBZqDdlIxik78yLB7m8+TeVK+eL+5jMviU2FCuZsrCQoCoYynE3EYhV6apd3OnZ/cDR0+6W0UELYehCi6A6Pn/U5F0oHMmal0VKmvozXzOYdbtt2P/IuhUzn4kowh3f5frfbO3hmHXNM7asgSTXXQcilWrTd0SndEsNddcimPVDrd9QDDWhGki5IgKd0TZpScISZ0QnF5KOqKCneXlGbodLAPyXFSOiQ2hhZMTgUD2686IxQ26EmOjIKoF+CJqhqPIrWxm0EZYwqozM4RPle2BZ2I2kFlU+CbcPvUVzsNXcIaA4eg6TJRcgNEYVwzldaoCeEq6JdeHSKc/dx6iOoXNBj1z+epWPrL8ey00V8/B/7OS80Gpn8vOzJjpbIpcU3i/FdGHJ5jWO2i3qEM1yiP1fNMV8VqzpQdPHs493FfR7843me3qJGV65PkNNwzXcaYs7vfoG6i5s6/QUTFtgNAAAAeJxjYGYAg//nGIwYMAE/AC8QAhK4Af+FsASNAA==) format("woff"); font-weight:600;font-style:normal;} @font-face{font-family:"Source Serif Pro";src:url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAWwAA0AAAAACJgAAwBCAAAAAAAAAAAAAAAAAAAAAAAAAABHUE9TAAABMAAAAGcAAACmT6M+T09TLzIAAAGYAAAAVgAAAGBdz4kkY21hcAAAAfAAAABEAAABSgCLBKxnYXNwAAACNAAAAAgAAAAIAAAAEGdseWYAAAI8AAAAoQAAAKST2WBiaGVhZAAAAuAAAAA2AAAANh5Blt9oaGVhAAADGAAAABsAAAAkA5gBNWhtdHgAAAM0AAAADAAAAAwFvQB8bG9jYQAAA0AAAAAIAAAACAAqAHZtYXhwAAADSAAAABoAAAAgAAkAIm5hbWUAAANkAAACLQAABARXWrfFcG9zdAAABZQAAAAUAAAAIP/RADVwcmVwAAAFqAAAAAcAAAAHaAaMhXicY2BkYGDgYghhKGFgcXHzCWGwS64symEwSi9KzWZQy0ksyWOQYmABqmH4/5+BkYEZic2ExGZEYjMwsGSnFgH1YZJAOUYwZgHq5gDSHEBaBKxXCSgLMpPh/1uweUxQDBYDANrjGWsAeJxjYGF8yTiBgZWBgamLKYKBgcEbQjPGMRgxygJFWdiYWVlYmZhYgHLsAgwI4Oji5M9wgEGBwYd52r+NDAwsPIz+CgyM80FyjLeZ5gEpBQZmABfYC9AAAHicY2BgYGaAYBkGRgYQcAHyGMF8FgYNIM0GpBkZmBgUGHz+/wfywfT/h/+3QdUDASMbA0HASFgJHDCRoHawAAAKngk1AAEAAf//AA94nGNgZQhgYGAyYJrLwMzAxsDJwMPAz8BgLqgoqKqozixobiwuqCpuHsD44F8do8qkzVPspvzbPWkSA9Pcv8nGrxjl/qm/ecN4U//VKwZkwMigAzRTA2imJAODsKmiKDsfoyyjiJi4sbkxu6KpuZmJLaMNo7oOo3QMIxA8lrXl+scXw8TEVKKpye3Q6OhqWu3QtUeT27HBwcixyR4A5ZQjFgAAAAABAAAAAwBCNMsz018PPPUIAQPoAAAAANnGOrEAAAAA2wkYbwAsAAACMAKdAAAAAwACAAAAAAAAeJxjYGRgYJ72byMDA1MDAwQwMqACZgBRagLQAAKAAFAA6QAAAlQALAAAACQAKgBSeJxjYGRgYGBmkGJgZQABRgYEYAcRAAPBACwAAHiclVLPTtswHP7SAtOmCe00sZ18G0jUTQoFlZ5aARISIohKHHYrqdtENHHlpH/YZTzG9gKTeIE9wA48xg6c9hTTviRmAzRpWizHn3/fH9txALzCLRyUT8heYof10OIKnmFhcRXv8NHiJWq+WLyMBr5avILX+GHxKt7iJ13O0nPObp01ix0I57vFFaw695oqTiovLV6CqLy3eBmDygeLV7BZufeuYrv64tuNaLjetqjlQ0t0BvpCid5Vmqk4FUdJoM1Em36mBmI9zLLJXr0+n89lP5fJQMf1jU0xj7JQnKlUmRllhzrJxEk/VuLu+lNPT02g7q4/yxKJnjLRUJwafaZG03HfbEnX9dqd/a7fLhWFgHzNCsj53YOn7nNl0kgnorSHOgt0MhOedKXnee24f6l0NlQLJRqyKXeazdbu39PtkdLARJMslWk0ltqM6v7hMW4geC8uPGwT1X7PWkQdDKBxAUXcwxVSZMQxR4EjJAjIGkyKd7/gBmTW+VdkbBPsoc42L5qk4j5NFs6Y3AY26Zgjoj4kOiObshvMbNohlQlZgRMmxPlexBp3ozGlKoASb5j3YF7sNU+IMCQ+JdJF7oiKMTMMtuhwi1O2ecZ9dOETPcz4k1D6a08SSp9P58E/1z4vKilr+UnEo9VD1rLiayQ8sWAt5yRHr+BjrnZJf64aclwUazSoaLLv8N3kTe3+194f305KT66esJYyM9/nmGN+pyPyPm/g+Bf6d8t8AAAAeJxjYGYAg//nGIwYMAEzAC8EAga4Af+FsASNAA==) format("woff"); font-weight:normal;font-style:normal;}</style>
+<style type="text/css">
+:root {
+    --text-color: #444450;
+    --background: #FFFEF7;
+    --accent1: #F96E46;
+    --accent2: #9E8FB2;
+    --accent3: #D3EFBD;
+    --drop-shadow-color: #232329;
+    --dark-drop-shadow-color: #999999;
+}
+text {
+    fill: var(--text-color);
+    font-size: 64px;
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 600;
+}
+tspan.bigL {
+    font-size: 220%;
+    font-weight: 400;
+}
+#darkBigL {
+    fill: var(--drop-shadow-color);
+}
+polygon, line {
+    stroke: var(--text-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.heavy {
+    stroke-width: 2px;
+}
+.light {
+    stroke-width: 1px;
+}
+line.incomingRed {
+    stroke: url(#incomingRed);
+}
+line.outgoingRed {
+    stroke: url(#outgoingRed);
+}
+line.incomingBlue {
+    stroke: url(#incomingBlue);
+}
+line.outgoingBlue {
+    stroke: url(#outgoingBlue);
+}
+@media (prefers-color-scheme: dark) {
+    text {
+        fill: #ddd;
+    }
+    #prism {
+        stroke: #bbb;
+    }
+    #darkBigL {
+        fill: var(--dark-drop-shadow-color);
+    }
+}
+@media (max-width: 500px) {
+    [id=simplify] {
+        display: none;
+    }
+}
+</style>
+<linearGradient id="incomingRed" x1="0%" x2="100%" y1="0%" y2="0%">
+    <stop offset="5%" stop-opacity="0%" stop-color="var(--accent1)"/>
+    <stop offset="80%" stop-opacity="100%" stop-color="var(--accent1)"/>
+</linearGradient>
+<linearGradient id="outgoingRed" x1="0%" x2="100%" y1="0%" y2="0%">
+    <stop offset="30%" stop-opacity="100%" stop-color="var(--accent1)"/>
+    <stop offset="95%" stop-opacity="0%" stop-color="var(--accent1)"/>
+</linearGradient>
+<linearGradient id="incomingBlue" x1="0%" x2="100%" y1="0%" y2="0%">
+    <stop offset="5%" stop-opacity="0%" stop-color="var(--accent2)"/>
+    <stop offset="80%" stop-opacity="100%" stop-color="var(--accent2)"/>
+</linearGradient>
+<linearGradient id="outgoingBlue" x1="0%" x2="100%" y1="0%" y2="0%">
+    <stop offset="30%" stop-opacity="100%" stop-color="var(--accent2)"/>
+    <stop offset="95%" stop-opacity="0%" stop-color="var(--accent2)"/>
+</linearGradient>
+</defs>
+<g id="prism" transform="translate(0 -6)">
+    <polygon points="305,114.5 305,54.5, 360,84.5"/>
+    <line x1="12" y1="94.5001" x2="341" y2="94.5" class="light incomingBlue"/>
+    <line x1="12" y1="74.5001" x2="341" y2="74.5" class="light incomingRed"/>
+
+    <!-- NOTE(cmo): use a 2D rotation matrix with theta = 60 deg -->
+    <line x1="341" y1="74.5" x2="367.5" y2="120.399" class="light outgoingRed"/>
+    <line x1="341" y1="94.5" x2="367.5" y2="48.601" class="light outgoingBlue"/>
+    <line x1="359" y1="84.5" x2="397" y2="84.5" class="light"/>
+</g>
+<g id="simplify">
+    <!-- <line x1="12" y1="120" x2="303" y2="120" class="ground"/>
+    <line x1="352" y1="27" x2="500" y2="27" class="ground"/> -->
+    <line x1="0" y1="120" x2="303" y2="120" class="ground"/>
+    <line x1="352" y1="27" x2="512" y2="27" class="ground"/>
+</g>
+<text x="5" y="1em">Contextua<tspan class="bigL" id="darkBigL" dy="0.37em" dx="-4px">L</tspan><tspan class="bigL" dx="-79px" dy="4px">L</tspan><tspan>ight</tspan></text>
+</svg>

@@ -1,0 +1,16 @@
+<div class="footer">
+<hr>
+<a href=https://twitter.com/Goobley class="nav-link footer-link">
+<i class="fa-brands fa-twitter"></i>
+@Goobley
+</a> |
+<script>
+function reversed_rot13(s) {
+    alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    encoded = s.replace(/[a-z]/gi, a => alpha[(alpha.indexOf(a) + 13) % 26 + ((alpha.indexOf(a) >= 26) ? 26 : 0)])
+    return encoded.split("").reverse().join("")
+}
+let x = 'zbp.gutvYynhgkrgabP@bzp'
+document.write('<a class="nav-link footer-link" href=mailto:' + reversed_rot13(x) + '>' + reversed_rot13(x) + '</a>');</script><noscript>Email me at the result of applying rot13 to <pre>zbp.gutvYynhgkrgabP@bzp</pre> and reversing it.</noscript>
+<noscript><style class="fallback">body{visibility:visible;white-space:pre;font-family:monospace}</style></noscript>
+</div>
