@@ -19,7 +19,7 @@ BasicPage  = """
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=block" rel="stylesheet">
     <meta name="author" content="Chris Osborne">
     <meta name="description" content="Solar physics, and other musings.">
     <link rel="stylesheet" href="main.css">

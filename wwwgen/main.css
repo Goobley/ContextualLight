@@ -12,6 +12,7 @@
 
 header {
     top: 0px;
+    text-align: center;
 }
 
 a.svg {
@@ -31,8 +32,8 @@ object.logo {
 }
 .byline {
     margin-top: -1.5em;
-    margin-left: 2.5em;
-
+    margin-left: 12%;
+    text-align: left;
 }
 
 nav {
@@ -42,8 +43,21 @@ nav {
 
 .footer {
     display: block;
-    text-align: right;
     margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.markdeep-footer {
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 60%;
+}
+
+.contact-footer {
+    display: block;
+    float: right;
+    text-align: right;
 }
 
 a.nav-link {
@@ -71,7 +85,7 @@ hr.nav-line {
 }
 
 body {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0px auto;
     padding: 0 10px;
     color: var(--text-color);
@@ -81,11 +95,20 @@ body {
 }
 
 
-h1,
-h2,
-h3 {
+.md h1,
+.md h2,
+.md h3 {
     line-height: 1.3;
     font-family: "Source Serif Pro";
+}
+
+.md p {
+    text-align: justify;
+    line-height: 1.35;
+}
+
+.md a:visited {
+    color: #266780;
 }
 
 @media (prefers-color-scheme: dark) {
