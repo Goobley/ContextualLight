@@ -40,7 +40,7 @@ a.svg:after {
     left:0;
 }
 object.logo {
-    max-width: fit-content;
+    max-width: 100%;
 }
 .byline {
     margin-top: -1.5em;
@@ -76,17 +76,14 @@ a.nav-link {
     min-width: 30%;
     display: inline-block;
 }
-a:link, a.nav-link:visited {
+a:link, a.nav-link:visited, a.nav-link-color:visited {
     color: var(--accent1);
 }
-a.nav-link:hover {
+a.nav-link:hover, a.nav-link-color:hover {
     color: var(--accent2);
 }
 a:visited {
     color: var(--accent2)
-}
-a.footer-link {
-    min-width: 0%;
 }
 
 hr.nav-line {
@@ -104,6 +101,30 @@ body {
     background: var(--background);
     font-family: "Source Serif Pro", serif;
     font-size: 12pt;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 90%;
+        font-size: 11pt;
+    }
+    a.nav-link {
+        min-width: 60%;
+        font-size: 12pt;
+        line-height: 1.6;
+    }
+    .footer-link  {
+        line-height: 1.6;
+    }
+    .contact-footer {
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+    }
+    .toggle-theme {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 
