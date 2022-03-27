@@ -48,7 +48,7 @@ BasicPage  = """
 """
 
 TitleExceptions = {
-    "Main": "Contextual Light"
+    "Index": "Contextual Light"
 }
 
 def load_single_file(p: str) -> str:
