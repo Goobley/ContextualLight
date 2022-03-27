@@ -1,0 +1,29 @@
+<markdeep>
+
+**My Thesis**
+
+I am pleased to announce that the final version of my Solar Physics PhD thesis is available!
+It can be found on the [University of Glasgow website](https://theses.gla.ac.uk/82584/), and is also archived for all eternity (hopefully) on [Zenodo](https://zenodo.org/record/6382792).
+This document documents my four year struggle with NLTE modelling of solar flares, focusing primarily on questioning existing assumptions (through the application of newer numerical techniques), and hopefully laying the groundwork for the questions that need to be answered for the results of next generation flare models to be meaningfully interpreted (how does the quiet chromosphere next to a flare react to _all that_ radiation?).
+It also details our initial approach taken to tackle the problem of NLTE inversion [^inversion] for flares, outside of statistical equilibrium.
+This lack of clearly physically defined constraints pushes us in the direction of machine learning, and has provided some very promising proof of concept results (with more robust implementations to follow soon™).
+
+The Zenodo archive also contains the Python, LaTeX source, and data needed to build the document (including all of the figures).
+In fact, the included data goes far beyond what is necessary to generate _just_ the figures in the thesis (this is hopefully evident from the 6.4 GB of data used to generate a 6 MB PDF)!
+Indeed, this data can serve as the base of further investigation of any phenomena discussed in the document.
+Thanks to the fantastic [PythonTeX](https://github.com/gpoore/pythontex), along with my updated version of [texfigure](https://github.com/Goobley/texfigure/), all figures are generated inline during the LaTeX compilation (allow ~5 mins on an 8-core Ryzen 3700X due to some of the intermediate radiative transfer products!), with convenient Python classes to handle inserted the actual figures into the document.
+
+For all plots in my thesis the PGF backend was used, due to the quality of the generated results and the way text integrates into the document, but it does have a few quirks to be worked around.
+For example, invisible content still seems to get laid out to some extent, as plots on very small regions of data have triggered some intriguing errors warning that the figure size was greater 11 yards...
+
+Nevertheless, I am very happy with the result, and would recommend other LaTeX and Python users to follow a similar approach.
+The repository where the document was developed is [here](https://github.com/Goobley/Thesis), and could serve as a template with a bit of work; as with all things completed close to a deadline, there are definitely sections that could be tidier...
+
+I am very grateful to my supervisor Lyndsay Fletcher, my radiative transfer and chillness mentor Ivan Milić, and general science mentor Paulo Simões for the time and energy spent working through these projects with me.
+
+💖
+
+[^inversion]: Inversion: determining atmospheric parameters from spectral line observations.
+</markdeep>
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script>window.markdeepOptions = {mode: 'html', tocStyle: 'none'};</script><script src="markdeep.js" charset="utf-8"></script>
+</script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
