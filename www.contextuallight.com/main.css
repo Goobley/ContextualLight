@@ -1,9 +1,21 @@
-:root {
+:root, :root.light {
     --text-color: #444450;
     --background: #FFFEF7;
     --accent1: #F96E46;
     --accent2: #9E8FB2;
     --accent3: #D3EFBD;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #ddd;
+        --background: #222;
+    }
+}
+
+:root.dark {
+    --text-color: #ddd;
+    --background: #222;
 }
 
 .not-footer {
@@ -109,11 +121,4 @@ body {
 
 .md a:visited {
     color: #266780;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #ddd;
-        background: #222;
-    }
 }

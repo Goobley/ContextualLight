@@ -1,19 +1,62 @@
 <div class="footer">
-<hr>
-<div class="markdeep-footer"><i>formatted by <a href="https://casual-effects.com/markdeep" style="color:#999">Markdeep&nbsp;1.13&nbsp;&nbsp;</a></i><div style="display:inline-block;font-size:13px;font-family:\'Times New Roman\',serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">&#x2712;</div></div>
-<div class="contact-footer">
-<a href=https://twitter.com/Goobley class="nav-link footer-link">
-<i class="fa-brands fa-twitter"></i>
-@Goobley
-</a> |
 <script>
-function reversed_rot13(s) {
-    alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    encoded = s.replace(/[a-z]/gi, a => alpha[(alpha.indexOf(a) + 13) % 26 + ((alpha.indexOf(a) >= 26) ? 26 : 0)])
-    return encoded.split("").reverse().join("")
+// My own amalgam of responses to: https://stackoverflow.com/q/56300132/3847013
+function setAndStoreTheme(theme) {
+    if (theme == "dark") {
+        document.documentElement.classList.remove("light");
+        document.documentElement.classList.add("dark");
+    } else {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("light");
+    }
+    localStorage.setItem("theme", theme);
 }
-let x = 'zbp.gutvYynhgkrgabP@bzp'
-document.write('<a class="nav-link footer-link" href=mailto:' + reversed_rot13(x) + '>' + reversed_rot13(x) + '</a>');</script><noscript>Email me at the result of applying rot13 to <pre>zbp.gutvYynhgkrgabP@bzp</pre> and reversing it.</noscript>
-<noscript><style class="fallback">body{visibility:visible;white-space:pre;font-family:monospace}</style></noscript>
-</div>
+function detectStoredTheme() {
+    var theme = "light";
+    var stored = false;
+    if (localStorage.getItem("theme")) {
+        stored = true;
+        if (localStorage.getItem("theme") == "dark") {
+            theme = "dark";
+        }
+    }
+    if (!stored) {
+        if (window?.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = "dark";
+        } else {
+            theme = "light";
+        }
+    }
+    setAndStoreTheme(theme);
+}
+function toggleTheme() {
+    var theme = localStorage.getItem("theme");
+    if (theme == "light") {
+        theme = "dark";
+    } else {
+        theme = "light";
+    }
+    setAndStoreTheme(theme);
+}
+detectStoredTheme();
+</script>
+<hr>
+    <a onClick="toggleTheme()", href="javascript:void(0);" class="nav-link">
+    Toggle Peeper Protection</a>
+    <div class="contact-footer">
+    <a href=https://twitter.com/Goobley class="nav-link footer-link">
+    <i class="fa-brands fa-twitter"></i>
+    @Goobley
+    </a> |
+    <script>
+    function reversed_rot13(s) {
+        alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        encoded = s.replace(/[a-z]/gi, a => alpha[(alpha.indexOf(a) + 13) % 26 + ((alpha.indexOf(a) >= 26) ? 26 : 0)])
+        return encoded.split("").reverse().join("")
+    }
+    let x = 'zbp.gutvYynhgkrgabP@bzp'
+    document.write('<a class="nav-link footer-link" href=mailto:' + reversed_rot13(x) + '>' + reversed_rot13(x) + '</a>');</script><noscript>Email me at the result of applying rot13 to <pre>zbp.gutvYynhgkrgabP@bzp</pre> and reversing it.</noscript>
+    <noscript><style class="fallback">body{visibility:visible;white-space:pre;font-family:monospace}</style></noscript>
+    </div>
+    <div class="markdeep-footer"><i>formatted by <a href="https://casual-effects.com/markdeep" style="color:#999">Markdeep&nbsp;1.13&nbsp;&nbsp;</a></i><div style="display:inline-block;font-size:13px;font-family:\'Times New Roman\',serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">&#x2712;</div> <i>(with very slight modifications).</i></div>
 </div>
