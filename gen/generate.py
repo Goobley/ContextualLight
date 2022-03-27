@@ -6,7 +6,7 @@ def create_dir(p):
     if not path.exists(p):
         os.mkdir(p)
 
-OutputPath = "../wwwgen"
+OutputPath = "../www.contextuallight.com"
 SnippetPath = "meta"
 ContentPath = "content"
 
